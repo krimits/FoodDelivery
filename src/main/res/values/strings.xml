@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Delivery</string>
+    
+    <!-- Main Activity -->
+    <string name="title_main">Food Delivery App</string>
+    <string name="btn_nearby_stores">Stores Near You</string>
+    <string name="btn_filter_stores">Filter Stores</string>
+    <string name="btn_rate_store">Rate a Store</string>
+    
+    <!-- Nearby Stores Activity -->
+    <string name="title_nearby_stores">Find Stores Near You</string>
+    <string name="label_latitude">Latitude</string>
+    <string name="label_longitude">Longitude</string>
+    <string name="hint_latitude">e.g. 37.9932963</string>
+    <string name="hint_longitude">e.g. 23.733413</string>
+    <string name="btn_search">Search</string>
+    <string name="msg_no_nearby_stores">No nearby stores found within 5 km</string>
+    
+    <!-- Filter Stores Activity -->
+    <string name="title_filter_stores">Filter Stores</string>
+    <string name="label_food_categories">Food Categories (comma-separated)</string>
+    <string name="hint_food_categories">e.g. pizzeria, burger, greek</string>
+    <string name="label_min_stars">Minimum Stars: %.1f</string>
+    <string name="label_price_category">Price Category</string>
+    <string name="option_any">Any</string>
+    <string name="option_low_price">$</string>
+    <string name="option_medium_price">$$</string>
+    <string name="option_high_price">$$$</string>
+    <string name="btn_apply_filters">Apply Filters</string>
+    <string name="msg_no_filtered_stores">No stores found matching your filters</string>
+    
+    <!-- Store Details Activity -->
+    <string name="title_store_details">Store Details</string>
+    <string name="label_category">Category: </string>
+    <string name="label_price">Price: </string>
+    <string name="label_available_products">Available Products</string>
+    <string name="btn_purchase">Purchase</string>
+    <string name="btn_rate">Rate</string>
+    
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Purchase Products</string>
+    <string name="label_store">Store:</string>
+    <string name="label_your_name">Your Name:</string>
+    <string name="hint_your_name">Enter your name</string>
+    <string name="label_your_email">Your Email:</string>
+    <string name="hint_your_email">Enter your email</string>
+    <string name="label_select_products">Select Products and Quantities:</string>
+    <string name="btn_complete_purchase">Complete Purchase</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="label_available">Available: %d</string>
+    
+    <!-- Rate Store Activity -->
+    <string name="title_rate_store">Rate a Store</string>
+    <string name="label_store_to_rate">Store to Rate:</string>
+    <string name="hint_store_name">Enter store name</string>
+    <string name="label_your_rating">Your Rating:</string>
+    <string name="label_tap_star">Tap a star to rate (1-5)</string>
+    <string name="btn_submit_rating">Submit Rating</string>
+    
+    <!-- Error Messages -->
+    <string name="error_enter_location">Please enter both latitude and longitude</string>
+    <string name="error_enter_valid_numbers">Please enter valid numeric values</string>
+    <string name="error_enter_name_email">Please enter your name and email</string>
+    <string name="error_select_product">Please select at least one product</string>
+    <string name="error_enter_store_name">Please enter the store name</string>
+    <string name="error_select_rating">Please select a rating (1-5 stars)</string>
+</resources>
